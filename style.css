@@ -20,7 +20,8 @@ html, body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 20px;
+    text-align: center;
 }
 
 .header {
@@ -67,15 +68,34 @@ html, body {
     background-color: #f9faf8;
     display: flex;
     flex-direction: column;
+    padding: 10px;
 }
 
 .gallery-images {
     display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+
+.gallery-image {
+    margin: 10px;
+    padding: 10px;
+}
+
+.gallery-image img {
+    border: 5px solid #3882f6;
+    padding: 50% 50%;
+    border-radius: 20px;
 }
 
 .gallery-text, .gallery-header {
     color: #1f2937;
 }
+
+.gallery-header {
+    text-align: center;
+}
+
 .gallery-header {
     font-size: 36px;
     font-weight: 900;
@@ -83,6 +103,7 @@ html, body {
 
 .quote {
     background-color: #e5e7eb;
+    padding: 20px;
 }
 
 .quote-text {
@@ -90,11 +111,16 @@ html, body {
     color: #1f2937;
 }
 
+.quote-attribution {
+    color: #1f2937;
+    text-align: right;
+}
+
 .call-to-action {
     background-color: #3882f6;
     display: flex;
     justify-content: center;
-    margin: 20px 200px;
+    margin: 50px 200px;
 }
 
 button {
@@ -115,4 +141,8 @@ button:hover {
 
 .call-button {
     border: 2px solid #f9faf8;
+}
+
+.copyright p {
+    text-align: center;
 }
