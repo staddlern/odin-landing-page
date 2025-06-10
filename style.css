@@ -26,17 +26,24 @@ html, body {
 .header {
     display: flex;
     padding: 20px;
+    justify-content: space-between;
 }
 
 .description, .header-image {
     flex: 1;
 }
 
-img {
+.header-image {
+    justify-content: center;
+}
+
+.header-image p {
     border: 2px solid #f9faf8;
     border-radius: 5px;
     color: #f9faf8;
-    padding: 50px 80px;
+    background-color: #020e20;
+    padding: 100px 80px;
+    text-align: center;
 }
 
 .header-main-text {
