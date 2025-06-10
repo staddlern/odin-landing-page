@@ -2,8 +2,19 @@
     font-family: "Lucida Console", "Courier New", monospace
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
 .navbar, .header, .copyright {
-    background-color: #1f2937
+    background-color: #1f2937;
 }
 
 .header-main-text {
@@ -20,6 +31,18 @@
 .header-logo {
     color: #f9faf8;
     font-size: 24px;
+}
+
+.gallery {
+    background-color: #f9faf8;
+}
+
+.gallery-text, .gallery-header {
+    color: #1f2937;
+}
+.gallery-header {
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .quote {
